@@ -1,0 +1,75 @@
+html, body {
+  overflow: hidden;
+}
+.ramka {
+  border: 1px solid #999;
+  height: 600px;
+  margin: auto;
+  margin-top: auto;
+  padding: 0;
+  width: 800px;
+}
+.ramka:focus, input:focus{
+  outline: none;
+}
+.look-window {
+  position: relative;
+  border: 1px solid #999;
+  height: 480px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 35px;
+  text-align: center;
+  width: 608px;
+}
+.map-look {
+  height: 480px;
+  display: block;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 80px;
+  text-align: center;
+  width: 608px;
+  background-color: coral;
+}
+.hidden {
+  display: none;
+}
+.tile-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.tile {
+
+  float: left;
+  height: 32px;
+  width: 32px;
+  background-color: black;
+}
+.tile-under-party {
+  float: left;
+  height: 32px;
+  width: 32px;
+  background-color: black;
+}
+.party-on-top-of-tile {
+  position: absolute;
+  float: left;
+  top: 0px;
+  left: 0px;
+}
+.party {
+  position: relative;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 32px;
+  padding: 0;
+  text-align: center;
+  width: 32px;
+
+}
